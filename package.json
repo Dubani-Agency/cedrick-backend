@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "cedrick-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,16 +9,15 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
-    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-connector-mongoose": "3.6.8",
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-graphql": "^3.6.8",
+    "strapi-plugin-graphql": "3.6.8",
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
@@ -28,7 +27,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "db3a5b76-023c-411f-8461-f648b989d6d7"
+    "uuid": "165398ab-0485-4930-9cb3-c300bc1e134f"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
